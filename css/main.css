@@ -288,19 +288,26 @@ transition: 0.125s ease all;
 /* Track */
 .sellers::-webkit-scrollbar-track {
   background: var(--text--gray);
+  transition: 0.125s ease all;
+
 }
 .sellers:hover::-webkit-scrollbar-track {
   background: var(--main);
+  transition: 0.125s ease all;
+
 }
 
 /* Handle */
 .sellers::-webkit-scrollbar-thumb {
-  background: var(--background);
+  background: var(--text--gray);
+  transition: 0.125s ease all;
 }
 
 /* Handle on hover */
 .sellers::-webkit-scrollbar-thumb:hover {
   background: var(--text--gray);
+  transition: 0.125s ease all;
+
 }
   .sellers--card{
     padding: 1rem;
@@ -322,4 +329,15 @@ transition: 0.125s ease all;
 
   .sellers section{
     max-width: 20rem;
+  }
+
+  .blog{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+  }
+  @media (min-width: 1200px) {
+    .blog{
+      flex-direction: row;
+    }
   }
