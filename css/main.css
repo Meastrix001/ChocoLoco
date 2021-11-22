@@ -283,12 +283,10 @@ transition: 0.125s ease all;
     overflow: auto;
   }
 
-  /* width */
 .sellers::-webkit-scrollbar {
   width: 10px;
 }
 
-/* Track */
 .sellers::-webkit-scrollbar-track {
   background: var(--text--gray);
   transition: 0.125s ease all;
@@ -300,13 +298,11 @@ transition: 0.125s ease all;
 
 }
 
-/* Handle */
 .sellers::-webkit-scrollbar-thumb {
   background: var(--text--gray);
   transition: 0.125s ease all;
 }
 
-/* Handle on hover */
 .sellers::-webkit-scrollbar-thumb:hover {
   background: var(--text--gray);
   transition: 0.125s ease all;
