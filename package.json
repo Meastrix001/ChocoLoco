@@ -1,7 +1,7 @@
 {
   "name": "ChocoLoco",
   "version": "1.0.0",
-  "description": "",
+  "description": "Selling you a complete chololate experience",
   "main": "index.js",
   "scripts": {
     "start": "npm run start",
