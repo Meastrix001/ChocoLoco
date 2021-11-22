@@ -346,6 +346,7 @@ transition: 0.125s ease all;
     display: flex;
     flex-wrap: wrap;
     margin: auto;
+    justify-content: center;
   }
   .sellers section{
     max-width: 20rem;
