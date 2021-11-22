@@ -1,0 +1,46 @@
+:root{
+  --main: #cdad69;
+  --main--hover: #bda05e;
+  --secondary: "";
+  --secondary--hover: "";
+  --background: #1c1c1c;
+  --text--gray:#4e4e4e;
+  --black: black;
+}
+body{
+  background-color: var(--background);
+  margin: 0 auto;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var();
+  width: 80%;
+  height: 600px;
+  margin-top: 50px;
+  border-radius: 5px;
+}
+
+.form-container {
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(235, 235, 235);
+  width: 80%;
+  height: 80%;
+
+}
+
+h1 {
+  color: #BDA05E;
+}
+
+.inputs-contaier {
+  display: block;
+}
+
+.firstname {
+    width: 100%;
+}
