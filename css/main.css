@@ -323,3 +323,93 @@ transition: 0.125s ease all;
   .sellers section{
     max-width: 20rem;
   }
+
+  /* Products */
+
+  .products{
+    margin-top:4rem;
+    color: white;
+    display: flex;
+    justify-content:space-between;
+  }
+  .filter__bottom{
+    display: flex;
+    justify-content: space-between;
+  }
+
+  
+  .filter__bottom--right{
+    display: flex;
+    width:70%;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .filter--right__inner{
+    width:25%;
+    display: flex;
+    justify-content:space-between;
+  }
+
+  .products--type{
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .slider{
+    width: 100%;
+    cursor: pointer;
+    width: 100%;
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+    
+  }
+.products--inner{
+  width: 25%;
+  /* border: 1px solid var(--main); */
+}
+  .products--inner__top{
+    height: 18rem;
+    background-image: url(../images/chocolateDream.jpg);
+    background-repeat:none;
+    background-position:center;
+    background-size:content;
+  }
+
+  .products--inner__bottom{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .products--inner__bottom h4{
+    margin-top: 1.5rem;
+    margin-bottom:0rem;
+  }
+
+  .products--icons{
+    display: flex;
+  }
+  .products--inner__bottom--icons{
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .products--right{
+    display: flex;
+    flex-wrap: wrap;
+    width:70%
+  }
+
+  .products--inner{
+    flex-basis: 23.5%;
+    margin: 1rem;
+    margin-bottom:4rem
+  }
+  
+  .slider--price{
+    display: flex;
+    align-items: center;
+    
+  }
