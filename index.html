@@ -1,356 +1,220 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href=./css/main.css>
-    <link rel="icon" href="./images/logo_sma;;.png">
-    <title>Home - ChocoLoco</title>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href=./css/main.css>
+	<link rel="icon" href="./images/logo_sma;;.png">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<title>Home - ChocoChic</title>
 </head>
-<body class="wrapper">
-    <div class="logo"><a href="./index.html">ChocoLoco</a></div>
-    <div class="header">
-            <svg class="menu-btn" height="384pt" viewBox="0 -53 384 384" width="384pt"
-                xmlns="http://www.w3.org/2000/svg">
-                <path
-                    d="m368 154.667969h-352c-8.832031 0-16-7.167969-16-16s7.167969-16 16-16h352c8.832031 0 16 7.167969 16 16s-7.167969 16-16 16zm0 0" />
-                <path
-                    d="m368 32h-352c-8.832031 0-16-7.167969-16-16s7.167969-16 16-16h352c8.832031 0 16 7.167969 16 16s-7.167969 16-16 16zm0 0" />
-                <path
-                    d="m368 277.332031h-352c-8.832031 0-16-7.167969-16-16s7.167969-16 16-16h352c8.832031 0 16 7.167969 16 16s-7.167969 16-16 16zm0 0" />
-                </svg>
-                <nav class=" nav">
-                    <ul class="text-gray">
-                        <li><a class="nav_active" href="">Home</a></li>
-                        <li><a href="./about-us/index.html">About us</a></li>
-                        <li><a href="./products/index.html">Products</a></li>
-                    </ul>
-                    <ul class="text-gray">
-                        <li><a href="./authentication/signIn.html">Login</a></li>
-                        <li><a href="./authentication/signUp.html">Sign up</a></li>
-                        <li><img src="./images/user.png" alt="account"></li>
-                        <li><img src="./images/shopping-cart.png"></li>
-                        <li><img src="./images/search-interface-symbol.png" alt="shopping cart" alt="search"></li>
-                    </ul>
-                </nav>
-        </div>
+<body>
+	<header >
+		<div class="wrapper">
+			<section class="header">
+				<a href="./index.html">
+					<div class="logo">
+						<div class="logo__letter">C</div><div>Chocoloco</div>
+					</div>
+				</a>
 
-    <div class=" wrapper hero">
-        <section>
-            <h1 class="text-main">2021<br/>Chocoloco</h1>
-            <p class="text-gray"><span class="text-main">view the new collection </span>we are giving marbles services</p>
-            <button class="btn"><a href="">learn more ></a></button>
-        </section>
-        <figure>
-            <img src="./images/hero.png" alt="hero-choco">
-        </figure>
-    </div>
+				<nav class="nav">
+					<ul class="nav__text">
+						<li><a class="active" href="">Home</a></li>
+						<li><a href="./about/index.html">About Us</a></li>
+						<li><a href="./product/index.html">Products</a></li>
+					</ul>
+					<div class="search-container">
+						<form action="" autocomplete="off">
+							<input type="text" placeholder="Search.." name="search">
+							<button type="submit"><i class="fa fa-search"></i></button>
+						</form>
+					</div>
+				</nav>
+				<ul class="accounts">
+					<li><i class="fa fa-shopping-bag"></i></li>
+					<li><i class="fa fa-user"></i></li>
+					<li><i class="fa fa-heart"></i></li>
+				</ul>
+				<div class="hamburger"><i class="fa fa-bars"></i></div>
+			</section>
+		</div>
+	</header>
+	<main class="main">
+		<div class="wrapper">
+			<section class="hero">
+				<article class="">
+                     <h1>Chocoloco Chique </h1>
+				     <p class="tagline">We put chique in our chocolate to make your testebuds blissful loco.</p>
+				     <button class="btn">View Products</button>
+			    </article>
+				<article class="hero__img">
+					<p class="paddingcontrol more"></p>
+				</article>
+			</section>
+			<section class="top__section">
+				<h2>Featured Products</h2>
+				<div class="top__feature">
+					<a href="./product/detail.html">
+						<article class="top__feature--info" >
+							<div class="top__feature--image"><img src="images/showcase1.jpg" /></div>
+							<div class="feature--title">
+								<h4>Chocbar mix</h4> 
+							</div>
+							<div>
+								<p class="price">€30.00</p>
+							</div>
+							<div class="feature--price">
+								<div><i class="fa fa-shopping-bag"></i></div>
+								<div><i class="fa fa-heart"></i></div>
+							</div>
+						</article>
+					</a>
+					<a href="./product/detail.html">
+						<article class="top__feature--info" >
+							<div class="top__feature--image"><img src="images/showcase2.jpg" /></div>
+							<div class="feature--title">
+								<h4>Mars mix</h4> 
+							</div>
+							<div>
+								<p class="price">€30.00</p>
+							</div>
+							<div class="feature--price">
+								<div><i class="fa fa-shopping-bag"></i></div>
+								<div><i class="fa fa-heart"></i></div>
+							</div>
+						</article>
+					</a>
+					<a href="./product/detail.html">
+						<article class="top__feature--info" >
+							<div class="top__feature--image"><img src="images/showcase3.jpg" /></div>
+							<div class="feature--title">
+								<h4>Deli mix</h4> 
+							</div>
+							<div>
+								<p class="price">€30.00</p>
+							</div>
+							<div class="feature--price">
+								<div><i class="fa fa-shopping-bag"></i></div>
+								<div><i class="fa fa-heart"></i></div>
+							</div>
+						</article>
+					</a>
+					<a href="./product/detail.html">
+						<article class="top__feature--info" >
+							<div class="top__feature--image"><img src="images/showcase4.jpg" /></div>
+							<div class="feature--title">
+								<h4>Love mix</h4> 
+							</div>
+							<div>
+								<p class="price">€30.00</p>
+							</div>
+							<div class="feature--price">
+								<div><i class="fa fa-shopping-bag"></i></div>
+								<div><i class="fa fa-heart"></i></div>
+							</div>
+						</article>
+					</a>
+			    </div>
+				<a class="btn" href="product/index.html" >View All</a>
+			</section>
+			<section class="bottom__section">
+				<h4>Best seller</h4>
+			</section>
 
-    <div class="articles">
-        <article>
-            <figure>
-                <img src="./images/seller1.png" alt=""></figure>
-            <section>
-                <h2 class="text-main">50<span class="text-gray text-capital">royal chocolate</span></h2>
-                <h2 class="text-main">Royal Box</h2>
-                <p class="article--title text-gray">Royal set twelve containing miniature box.</p>
-                <p class="text-gray">we harness the power of storytelling to open minds, spirits and at latest tp esteemed chocolate, inspiring us all to interact with the world in a new and creative way.</p>
-                <button class="btn"><a class="text-capital" href="">View all ></a></button>
-            </section>
-        </article>
-
-        <article>
-            <figure>
-                <img src="./images/seller2.png" alt="">
-            </figure>
-            <section>
-                <h2 class="text-main">20<span class="text-gray text-capital">Luxury chocolate</span></h2>
-                <h2 class="text-main">Luxury Box</h2>
-                <p class="article--title text-gray">Luxury box in dark brown marble like.</p>
-                <p class="text-gray">we harness the power of storytelling to open minds, spirits and at latest tp esteemed chocolate, inspiring us all to interact with the world in a new and creative way</p>
-                <button class="btn"><a class="text-capital" href="">View all   ></a></button>
-            </section>
-        </article>
-
-        <article>
-            <figure>
-                <img src="./images/seller3.png" alt="">
-            </figure>
-            <section>
-                <h2 class="text-main">40<span class="text-gray text-capital">Gift Box Chocolate</span></h2>
-                <h2 class="text-main">Gift Box Choco</h2>
-                <p class="article--title text-gray">Royal set twelve containing miniature box</p>
-                <p class="text-gray">we harness the [ower of storytelling to open minds, spirits and at latest tp esteemed chocolate, inspiring us all to interact with the world in a new and creative way</p>
-                <button class="btn"><a class="text-capital" href="">View all ></a></button>
-            </section>
-        </article>
-    </div>
-
-    <div class="sellers spacing">
-        <section class="sellers--card">
-            <figure>
-                <img src="./images/showcase2.jpg" alt="article">
-            </figure>
-            <div class="sellers--card--about">
-                <h3>Milk Chocolate Sweat Georgie</h3>
-                <p>low on suger and other ingredients</p>
-            </div>
-            <div class="sellers--card--content">
-                <p class="text-main">50</p>
-                <section>
-                    <img src="./images/heart (2).png" alt="wishlist">
-                    <img src="./images/shopping-cart.png" alt="buy">
-                </section>
-            </div>
-        </section>
-
-        <section class="sellers--card">
-            <figure>
-                <img src="./images/showcase2.jpg" alt="article">
-            </figure>
-            <div class="sellers--card--about">
-                <h3>Milk Chocolate Sweat Georgie</h3>
-                <p>low on suger and other ingredients</p>
-            </div>
-            <div class="sellers--card--content">
-                <p class="text-main">50</p>
-                <section>
-                    <img src="./images/heart (2).png" alt="wishlist">
-                    <img src="./images/shopping-cart.png" alt="buy">
-                </section>
-            </div>
-        </section>
-
-
-        <section class="sellers--card">
-            <figure>
-                <img src="./images/showcase2.jpg" alt="article">
-            </figure>
-            <div class="sellers--card--about">
-                <h3>Milk Chocolate Sweat Georgie</h3>
-                <p>low on suger and other ingredients</p>
-            </div>
-            <div class="sellers--card--content">
-                <p class="text-main">50</p>
-                <section>
-                    <img src="./images/heart (2).png" alt="wishlist">
-                    <img src="./images/shopping-cart.png" alt="buy">
-                </section>
-            </div>
-        </section>
-
-
-        <section class="sellers--card">
-            <figure>
-                <img src="./images/showcase2.jpg" alt="article">
-            </figure>
-            <div class="sellers--card--about">
-                <h3>Milk Chocolate Sweat Georgie</h3>
-                <p>low on suger and other ingredients</p>
-            </div>
-            <div class="sellers--card--content">
-                <p class="text-main">50</p>
-                <section>
-                    <img src="./images/heart (2).png" alt="wishlist">
-                    <img src="./images/shopping-cart.png" alt="buy">
-                </section>
-            </div>
-        </section>
-
-
-        <section class="sellers--card">
-            <figure>
-                <img src="./images/showcase2.jpg" alt="article">
-            </figure>
-            <div class="sellers--card--about">
-                <h3>Milk Chocolate Sweat Georgie</h3>
-                <p>low on suger and other ingredients</p>
-            </div>
-            <div class="sellers--card--content">
-                <p class="text-main">50</p>
-                <section>
-                    <img src="./images/heart (2).png" alt="wishlist">
-                    <img src="./images/shopping-cart.png" alt="buy">
-                </section>
-            </div>
-        </section>
-
-
-        <section class="sellers--card">
-            <figure>
-                <img src="./images/showcase2.jpg" alt="article">
-            </figure>
-            <div class="sellers--card--about">
-                <h3>Milk Chocolate Sweat Georgie</h3>
-                <p>low on suger and other ingredients</p>
-            </div>
-            <div class="sellers--card--content">
-                <p class="text-main">50</p>
-                <section>
-                    <img src="./images/heart (2).png" alt="wishlist">
-                    <img src="./images/shopping-cart.png" alt="buy">
-                </section>
-            </div>
-        </section>
-
-
-        <section class="sellers--card">
-            <figure>
-                <img src="./images/showcase2.jpg" alt="article">
-            </figure>
-            <div class="sellers--card--about">
-                <h3>Milk Chocolate Sweat Georgie</h3>
-                <p>low on suger and other ingredients</p>
-            </div>
-            <div class="sellers--card--content">
-                <p class="text-main">50</p>
-                <section>
-                    <img src="./images/heart (2).png" alt="wishlist">
-                    <img src="./images/shopping-cart.png" alt="buy">
-                </section>
-            </div>
-        </section>
-
-        <section class="sellers--card">
-            <figure>
-                <img src="./images/showcase2.jpg" alt="article">
-            </figure>
-            <div class="sellers--card--about">
-                <h3>Milk Chocolate Sweat Georgie</h3>
-                <p>low on suger and other ingredients</p>
-            </div>
-            <div class="sellers--card--content">
-                <p class="text-main">50</p>
-                <section>
-                    <img src="./images/heart (2).png" alt="wishlist">
-                    <img src="./images/shopping-cart.png" alt="buy">
-                </section>
-            </div>
-        </section>
-
-        
-        
-    </div>
-    
-    <div class="blog spacing">
-        <section>
-            <img src="" alt="">
-            <div>
-                <div>
-                    <h4>Our new branch in New York</h4>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quo voluptatum doloribus.</p>
-                </div>
-                <div>
-                    <a href="">Read more</a>
-                </div>
-            </div>
-        </section>
-        
-        <section>
-            <img src="" alt="">
-            <div>
-                <div>
-                    <h4>Our new branch in New York</h4>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quo voluptatum doloribus.</p>
-                </div>
-                <div>
-                    <a href="">Read more</a>
-                </div>
-            </div>
-        </section>
-    </div>
-    
-    <div class="showcase spacing">
-
-        <img src="./images/showcase1.jpg" alt="">
-
-        <div>
-            <h3 class="text-main">this is some add</h3>
-            <p>this is some smaller text</p>
-        </div>
-
-        <img src="./images/showcase2.jpg" alt="">
-
-        <div>
-            <h3 class="text-main">this is some add</h3>
-            <p>this is some smaller text</p>
-        </div>
-
-        
-        <div>
-            <h3 class="text-main">this is some add</h3>
-            <p>this is some smaller text</p>
-        </div>
-        
-        <img src="./images/showcase3.jpg" alt="">
-
-        <div>
-            <h3 class="text-main">this is some add</h3>
-            <p>this is some smaller text</p>
-        </div>
-        
-        <img src="./images/showcase4.jpg" alt="">
-
-    </div>
-
-    <div class="contact spacing">
-        <section>
-            <img src="./images/fake_map.png" alt="location">
-        </section>
-
-        <section>
-            <h4 class="text-main">If you have any question, contact us</h4>
-            <form action="">
-                <label for="name"></label>
-                <input id="name" type="text" name="Name" placeholder="Name">
-
-                <label for="email"></label>
-                <input name="email" type="text" placeholder="Email">
-
-                <label for="message"></label>
-                <input id="message" type="text" placeholder="Message">
-
-                <button class="contact--btn btn">Send</button>
-            </form>
-        </section>
-        
-    </div>
-
-    <footer class="footer spacing">
-        <div class="container">
-            <div class="justify-content-between">
-                <section>
-                    <h4>Shop Ghent</h4>
-                    <ul>
-                        <li>Dok Noord</li>
-                        <li>Sassevaartstraat 46/401</li>
-                        <li>9000 Ghent</li>
-                        <li>Belgium</li>
-                        <li>Get directions</li>
-                    </ul>
-                </section>
-                <section>
-                    <h4>Shop Leuven</h4>
-                    <ul>
-                        <li>De Smidse</li>
-                        <li>SSluisstraat 10</li>
-                        <li>3000 Leuven</li>
-                        <li>Belgium</li>
-                        <li>Get directions</li>
-                    </ul>
-                </section>
-                <section>
-                    <h4>Contact us</h4>
-                    <ul>
-                        <li>hello@ChocoLoco.com</li>
-                        <li>+32 9 234 34 25</li>
-                        <li>Send us a message</li>
-                    </ul>
-                </section>
-    
-            </div>
-        </div>
-    </footer>
+			<section class="top__section">
+				<h2>Featured Categories</h2>
+				<div class="top__feature">
+					<article class="top__feature--info" >
+						<div class="top__feature--image"><img src="images/showcase1.jpg" /></div>
+						<div class="feature--title">
+							<h4>Chocobites</h4> 
+						</div>
+					</article>
+					<article class="top__feature--info" >
+						<div class="top__feature--image"><img src="images/showcase2.jpg" /></div>
+						<div class="feature--title">
+							<h4>Truffels</h4> 
+						</div>
+					</article>
+					<article class="top__feature--info" >
+						<div class="top__feature--image"><img src="images/showcase3.jpg" /></div>
+						<div class="feature--title">
+							<h4>Chocobar</h4> 
+					</article>
+					<article class="top__feature--info" >
+						<div class="top__feature--image"><img src="images/showcase4.jpg" /></div>
+						<div class="feature--title">
+							<h4>Hot chocolate spoon</h4> 
+						</div>
+					</article>
+					
+			    </div>
+				<a class="btn" href="product/index.html" >View All</a>
+			</section>
+		</div>
+	</main>
+	<footer>
+		<section class="footer__topBar">
+			<div class="wrapper">
+				<div class="footer__topBar--inner">
+					<article class="footer__left">
+						<p class="paddingcontrol"></p>
+					</article>
+					<article class="footer__right">
+						<h2 class="text-main">Get in touch</h2>
+						<form action="">
+							<input id="name" type="text" name="Name" placeholder="Name">
+							<input name="email" type="text" placeholder="Email">
+							<textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+							<input type="submit" value="Submit">
+						</form>
+					</article>
+				</div>
+			</div>
+		</section>
+		<section class="footer__bottom spacing">
+			<div class="wrapper">
+				<div class="justify-content-between">
+					<article>
+						<h4>Shop Ghent</h4>
+						<ul>
+							<li>Dok Noord</li>
+							<li>Sassevaartstraat 46/401</li>
+							<li>9000 Ghent</li>
+							<li>Belgium</li>
+							<li class="hover">Get directions</li>
+						</ul>
+					</article>
+					<article>
+						<h4>Shop Leuven</h4>
+						<ul>
+							<li>De Smidse</li>
+							<li>SSluisstraat 10</li>
+							<li>3000 Leuven</li>
+							<li>Belgium</li>
+							<li class="hover">Get directions</li>
+						</ul>
+					</article>
+					<article>
+						<h4>Contact Us</h4>
+						<ul>
+							<li class="hover">hello@chocoloco.com</li>
+							<li class="hover">+32 9 234 34 25</li>
+						</ul>
+					</article>
+					<article>
+						<h4>Follow Us</h4>
+						<ul class="accounts acconsts__footer">
+							<li><i class="fa fa-facebook-square"></i></li>
+							<li><i class="fa fa-pinterest-square"></i></li>
+							<li><i class="fa fa-twitter-square"></i></li>
+						</ul>
+					</article>
+				</div>
+			</div>
+		</section>
+	</footer>
 </body>
 </html>
